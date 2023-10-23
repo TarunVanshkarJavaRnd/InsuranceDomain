@@ -191,7 +191,7 @@ const ProfilePage = () => {
                 <p className='card-text m-0'>Type: {policyFeedback.type}</p>
                 <p className="card-text m-0 ">Cover : {policyFeedback.cover}L</p>
                 <p className="card-text m-0">Price : ₹{policyFeedback.price}</p>
-                <label>Example textarea</label>
+                <label>Write your feedback here</label>
                 <textarea className="form-control my-2" rows="3" ></textarea>
                 <button className='btn btn-primary' onClick={() => handleFeedbackSubmit()}>Submit</button>
               </div>
